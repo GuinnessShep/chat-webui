@@ -158,7 +158,7 @@ def main():
 
     detected_languages = detect_languages(build_files)
 
-    file_tree_str = "\n".join([f"{root}: {", ".join(files)}" for root, files in file_tree.items()])
+    file_tree_str = "\n".join([f"{root}: {', '.join(files)}" for root, files in file_tree.items()])
 
     build_files_str = "\n".join(build_files)
 
