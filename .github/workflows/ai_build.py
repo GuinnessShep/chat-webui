@@ -4,7 +4,7 @@ import subprocess
 from collections import defaultdict
 from pygments.lexers import get_lexer_for_filename, guess_lexer_for_filename, ClassNotFound
 
-openai.api_key = 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
+openai.api_key = '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'
 
 def search_readme():
 
