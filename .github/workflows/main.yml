@@ -30,4 +30,4 @@ jobs:
 
     - name: Run AI-based build script
       run: |
-        python ai_build.py
+        python .github/workflows/ai_build.py
