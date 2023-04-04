@@ -2,11 +2,7 @@ name: AI-based Build
 
 on:
   push:
-    branches:
-      - main
   pull_request:
-    branches:
-      - main
 
 jobs:
   build:
